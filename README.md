@@ -5,7 +5,7 @@ The project's purpose is to automatically extract the Shop ID and Product ID num
 
 Link Pattern 1: https://shopee.co.id/Link-Live-i.534165604.21065197866?sp_atk=993d65fe-367c-4829-b94f-140e2ffe82c5&xptdk=993d65fe-367c-4829-b94f-140e2ffe82c5
 
-Link Pattern 2: https://shopee.co.id/534165604/21065197866
+Link Pattern 2: https://shopee.co.id/product/534165604/21065197866
 
 Link Pattern 3: https://shopee.co.id/xx-i.534165604.21065197866
 
