@@ -11,12 +11,11 @@ function Content() {
     const handleLinkChange = (event) => {
         setLink(event.target.value);
       
-        const links = event.target.value.split('\n'); // Split the input value into an array of links
+        const links = event.target.value.split('\n');
       
         const extractedProductIDs = [];
         const extractedShopIDs = [];
       
-        // Proses link untuk mendapatkan Product ID dan Shop ID
         const linkRegex1 = /i\.(\d+)\.(\d+)/;
         const linkRegex2 = /(\d+)\/(\d+)/;
         const linkRegex3 = /xx-i\.(\d+)\.(\d+)/;
@@ -41,9 +40,8 @@ function Content() {
           }
         });
       
-        // Update the state with the extracted Product IDs and Shop IDs
-        setProductID(extractedProductIDs.join('\n')); // Join the array of IDs with line breaks
-        setShopID(extractedShopIDs.join('\n')); // Join the array of IDs with line breaks
+        setProductID(extractedProductIDs.join('\n'));
+        setShopID(extractedShopIDs.join('\n'));
     };
 
     const handleCopyClickSID = (text) => {
