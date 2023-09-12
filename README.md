@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+# Project Description
+One of my tasks in my job is to gather Shopee product links from the Shopee platform into Google Spreadsheet. Then, I need to separate the Shop ID and Product ID numbers from those links. However, there's a challenge because these links have various patterns, making it cumbersome to split cells in Google Spreadsheet. This project was undertaken with the aim of simplifying this technical aspect of my work.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project's purpose is to automatically extract the Shop ID and Product ID numbers from Shopee product links with different patterns, such as:
 
-## Available Scripts
+Link Pattern 1: https://shopee.co.id/Link-Live-i.534165604.21065197866?sp_atk=993d65fe-367c-4829-b94f-140e2ffe82c5&xptdk=993d65fe-367c-4829-b94f-140e2ffe82c5
 
-In the project directory, you can run:
+Link Pattern 2: https://shopee.co.id/534165604/21065197866
 
-### `npm start`
+Link Pattern 3: https://shopee.co.id/xx-i.534165604.21065197866
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+By automating this process, it enables faster extraction and separation of Shop ID and Product ID data in Google Spreadsheet when working with Shopee product links. So far, this project only focuses on extracting Shop ID and Product ID numbers from Shopee product links exclusively. I have also deployed this project to Netlify, and you can see it below:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://shopee-id-extractor.netlify.app/
 
-### `npm test`
+I have also included a video tutorial on how to use it in this repository.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please feel free to share any feedback or suggestions you may have regarding my project. I am always open to learning and improving, and I greatly appreciate your input. Thank you for taking the time to review my work!
