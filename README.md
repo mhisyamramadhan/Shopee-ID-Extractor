@@ -1,7 +1,7 @@
 # Project Description
 One of my tasks in my job is to gather Shopee product links from the Shopee platform into Google Spreadsheet. Then, I need to separate the Shop ID and Product ID numbers from those links. However, there's a challenge because these links have various patterns, making it difficult to split in Google Spreadsheet. This project was undertaken with the aim of simplifying this technical aspect of my work.
 
-The project's purpose is to automatically extract the Shop ID and Product ID numbers from Shopee product links with different patterns, such as:
+The project using React JS and Tailwind CSS and project's purpose is to automatically extract the Shop ID and Product ID numbers from Shopee product links with different patterns, such as:
 
 Link Pattern 1: https://shopee.co.id/Link-Live-i.534165604.21065197866?sp_atk=993d65fe-367c-4829-b94f-140e2ffe82c5&xptdk=993d65fe-367c-4829-b94f-140e2ffe82c5
 
